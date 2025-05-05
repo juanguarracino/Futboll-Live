@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Fútbol Live - Resultados y Tablas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fútbol Live</h1>
+        <nav>
+            <select id="ligaSelect">
+                <option disabled selected>Selecciona una liga</option>
+            </select>
+        </nav>
+    </header>
+
+    <main>
+        <section id="tablaPosiciones">
+            <h2>Tabla de Posiciones</h2>
+            <div id="loading">Cargando...</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Equipo</th>
+                        <th>Pts</th>
+                        <th>PJ</th>
+                        <th>PG</th>
+                        <th>PE</th>
+                        <th>PP</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaBody">
+                    <!-- Se cargan dinámicamente -->
+                </tbody>
+            </table>
+        </section>
+
+        <section id="proximosPartidos">
+            <h2>Próximos Partidos</h2>
+            <ul id="partidosLista">
+                <!-- Se cargan dinámicamente -->
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
