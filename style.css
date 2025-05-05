@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav select {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#loading {
+    text-align: center;
+    margin-top: 10px;
+    color: #666;
+}
