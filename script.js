@@ -1,5 +1,5 @@
 const API_KEY = '8486b4635f333a4b90734b58d3e2d14a'; // ← Reemplaza con tu clave de API-Football
-const API_HOST = 'https://v3.football.api-sports.io';
+const API_HOST = 'api-football-v1.p.rapidapi.com';
 
 const headers = {
     'X-RapidAPI-Key': API_KEY,
